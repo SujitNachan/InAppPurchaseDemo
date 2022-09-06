@@ -1,0 +1,81 @@
+{
+  "identifier" : "CD4BC6B4",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "F7B7C856",
+      "localizations" : [
+        {
+          "description" : "Get 100 coins to play",
+          "displayName" : "100 Coins",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.inapppurchase.getcoins",
+      "referenceName" : "100Coins",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1.20",
+      "familyShareable" : false,
+      "internalID" : "E6EECB55",
+      "localizations" : [
+        {
+          "description" : "Remove all ads ",
+          "displayName" : "Remove ads",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.inapppurchase.removeads",
+      "referenceName" : "Remove Ads",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "A14E112D",
+      "localizations" : [
+
+      ],
+      "name" : "com.inapppurchase.premium",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "2A9464DA",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Premium Subscription",
+              "displayName" : "Premium",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.inapppurchase.premium",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Premium",
+          "subscriptionGroupID" : "A14E112D",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 2
+  }
+}
